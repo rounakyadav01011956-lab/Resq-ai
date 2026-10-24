@@ -1,0 +1,147 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "bldg_hospital",
+        "name": "General Emergency Hospital",
+        "building": "hospital",
+        "height": 28.0,
+        "levels": 7
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-74.0080, 40.7120],
+            [-74.0065, 40.7120],
+            [-74.0065, 40.7132],
+            [-74.0080, 40.7132],
+            [-74.0080, 40.7120]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "bldg_highschool",
+        "name": "Civic High School",
+        "building": "school",
+        "height": 16.0,
+        "levels": 3
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-74.0055, 40.7120],
+            [-74.0040, 40.7120],
+            [-74.0040, 40.7130],
+            [-74.0055, 40.7130],
+            [-74.0055, 40.7120]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "bldg_metro_tower",
+        "name": "Metro Commerce Tower",
+        "building": "commercial",
+        "height": 45.0,
+        "levels": 12
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-74.0080, 40.7100],
+            [-74.0065, 40.7100],
+            [-74.0065, 40.7112],
+            [-74.0080, 40.7112],
+            [-74.0080, 40.7100]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "bldg_residential_a",
+        "name": "Riverside Apartments",
+        "building": "residential",
+        "height": 24.0,
+        "levels": 6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-74.0055, 40.7100],
+            [-74.0040, 40.7100],
+            [-74.0040, 40.7112],
+            [-74.0055, 40.7112],
+            [-74.0055, 40.7100]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "road_central_blvd",
+        "name": "Central Boulevard",
+        "highway": "primary"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-74.0090, 40.7116],
+          [-74.0030, 40.7116]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "road_cross_ave",
+        "name": "5th Avenue Corridor",
+        "highway": "secondary"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-74.0060, 40.7090],
+          [-74.0060, 40.7140]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "exit_north_stadium",
+        "name": "North Stadium Evacuation Area",
+        "emergency": "assembly_point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.0060, 40.7142]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "exit_south_harbor",
+        "name": "South Waterfront Safety Gate",
+        "emergency": "assembly_point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.0060, 40.7088]
+      }
+    }
+  ]
+}
